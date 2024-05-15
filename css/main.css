@@ -1,0 +1,34 @@
+.bg-orange {
+  background-color: #f79226;
+}
+.con {
+  height: 400px;
+  width: 700px;
+}
+.shape {
+  top: 5%;
+  left: 5%;
+  bottom: 5%;
+  right: 5%;
+  border: solid 8px black;
+}
+.q-left {
+  font-size: 80px;
+  left: -5%;
+  top: -5%;
+}
+.q-right {
+  font-size: 80px;
+  right: -5%;
+  bottom: -5%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+p {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome Link -->
+    <script
+      src="https://kit.fontawesome.com/f079439c18.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Random Quotes Generator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <section class="bg-orange vh-100">
+      <article class="container text-center py-3">
+        <h1 class="my-3 text-white">Quote of the Day</h1>
+        <p>Press the button below to recieve a random quote!</p>
+        <button
+          onclick="newQuote()"
+          type="button"
+          class="btn btn-dark mb-3 px-4 fs-4"
+        >
+          New Quote
+        </button>
+        <section class="con bg-white rounded-5 m-auto mt-3 position-relative">
+          <article
+            class="shape rounded-5 py-5 position-absolute d-flex justify-content-center align-items-center"
+          >
+            <i
+              class="fa-solid fa-quote-left q-left text-black position-absolute bg-white px-2 py-1"
+            ></i>
+            <i
+              class="fa-solid fa-quote-right q-right text-black position-absolute bg-white px-2 py-1"
+            ></i>
+            <!-- Receive Quote from JS -->
+            <div
+              id="quote-con"
+              class="h-100 d-flex flex-column justify-content-around align-items-center p-4"
+            ></div>
+          </article>
+        </section>
+      </article>
+    </section>
+    <!-- JS File -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
