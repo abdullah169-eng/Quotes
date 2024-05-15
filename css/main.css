@@ -32,3 +32,32 @@ p {
   font-family: "Times New Roman", Times, serif;
   color: black;
 }
+@media screen and (max-width: 780px) {
+  .con {
+    height: 250px;
+    width: 400px;
+  }
+  .con p {
+    font-size: 18px;
+  }
+  .q-left,
+  .q-right {
+    font-size: 50px;
+  }
+  .p-media {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .con {
+    height: 230px;
+    width: 360px;
+  }
+  .con p {
+    font-size: 16px;
+  }
+  .q-left,
+  .q-right {
+    font-size: 40px;
+  }
+}

@@ -47,6 +47,6 @@ function newQuote() {
     noRepeat = index;
     document.getElementById(
       "quote-con"
-    ).innerHTML = `<p class="pt-3"> ${quotesList[index].quote}</p> <p class="fw-bold text-primary"> ${quotesList[index].author}</p>`;
+    ).innerHTML = `<p class="pb-1 p-media"> ${quotesList[index].quote}</p> <p class="fw-bold text-primary"> ${quotesList[index].author}</p>`;
   }
 }
